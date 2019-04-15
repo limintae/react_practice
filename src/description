@@ -1,0 +1,24 @@
+
+[React 코드랩 챕터 6 : Props와 State 1]
+- react setState시 자동으로 변경된 VurtualDOM에서 변경된 부분만 랜더가 시작된다. (diff체크 알고리즘)
+- setState는 최소한으로 사용하는것을 권장
+
+[React 코드랩 챕터 6 : Props와 State 2]
+- this.props.text - 부모로부터 넘겨받은 value를 getter로 읽는다 
+- this.props.text는 React.Component라는 상위 클래스를 상속했기때문에 쓸 수 있다. 
+
+[React 코드랩 챕터 6 : Props와 State 3]
+- component는 최대한 다른곳에서 재사용 가능하도록 깔끔하여야 좋다
+- 최대한 로직은 container에 위임한다
+- 리팩토링 하는작업 완료
+
+[React 코드랩 챕터 7 : React Component의 Lifecycle 1]
+- React는 새로운버전이 Release되었을때 core가 변경되진 않아서 크게 변경이 필요하진 않다.
+- SPA는 기존에 있던 화면에있던 이벤트 핸들러를 해제해줘야한다(메모리상에서 삭제)
+- SPA가 아니더라도 메모리 관리를 하지않으면 이벤트 등으로 쌓인 메모리때문에 브라우저가 뻗음
+- setState를 적절히 활용하는 것이 React Way개발
+- debugger정의시 브레이크를 자동으로 잡아줌
+- react만의 중요한기능 props, state
+
+[React 코드랩 챕터 8 : Event 1]
+- 
